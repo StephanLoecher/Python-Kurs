@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./SoftwareInstall/model",
+        "./SoftwareInstall/controller"
+    ]
+}
