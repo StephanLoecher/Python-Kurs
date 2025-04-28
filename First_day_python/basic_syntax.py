@@ -3,12 +3,12 @@
 # Dies ist ein einzeiliger Kommentar
 
 """
-Dies ist ein Multline Comment
+Dies ist ein Multiline Comment
 Diesen Kommentag kann ich über mehrere Zeilen schreiben
 """
 
 '''
-Auch dies ist ein Mulit line comment
+Auch dies ist ein Multiline comment
 Auch dies geht über mehrere Zeilen!
 '''
 
@@ -34,7 +34,9 @@ elif x < 2:
 else: 
     print("x is bigger then 2")
 
-#Import sollte immer am Anfang des scripts stehen
+# Import sollte immer am Anfang des Scripts stehen
+# import Modul war in der Reihenfolge der Themen später behandelt, deswegen steht es mittig im Script
+
 import os
 import cpuinfo
 import erweiterte_grundlagen
@@ -59,10 +61,10 @@ else:
     print("Your CPU is okay :D")
 
 if cpuinfo["count"] is maxCpuCount:
-    print("Your Cpu ist great")
+    print("Your Cpu is great")
 
 if cpuinfo["count"] is not maxCpuCount:
-    print("Your Cpu ist bad")
+    print("Your Cpu is bad")
 
 # Erweiterte Datentypen
 

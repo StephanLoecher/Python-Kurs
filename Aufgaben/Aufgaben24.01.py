@@ -28,10 +28,12 @@ s = {1,2,3} # set
 #if type(zahl) == int and type(zahl) == float and zahl >= 5 and zahl <= 10:
 #    print("True")
 
+# Die nested if statements und geketteten logischen Operatoren waren zu Demonstrationzwecken
+
 dryFood = ["DryMeat", "Corny", "Cookies", "knoppers"]
 
 def bestellungsChecker(einkaufsliste, lebensmittel = dryFood):
-    if type(einkaufsliste) == list or type(einkaufsliste) == tuple or type(einkaufsliste) == set:
+    if type(einkaufsliste) == list or type(einkaufsliste) == tuple or type(einkaufsliste) == set:   
         for essen in einkaufsliste:
             if essen == lebensmittel:
                 print("Line 37: true")
