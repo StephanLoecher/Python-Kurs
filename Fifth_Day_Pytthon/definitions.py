@@ -1,5 +1,3 @@
-from typing import overload
-
 def iAmADefinition():
     print("Ich bin eine tolle Funktion")
 
